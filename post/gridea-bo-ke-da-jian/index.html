@@ -1,95 +1,263 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea博客搭建 | Gridea</title>
-<link rel="shortcut icon" href="https://erenblogs.github.io/favicon.ico?v=1631719848877">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://erenblogs.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea博客搭建 | Gridea - Atom Feed" href="https://erenblogs.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="温故而知新">
+<meta name="theme-color" content="">
+<title>Gridea博客搭建 | eren&#39;s blogs</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1631720012542">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/media/css/pisces.css">
+
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/github.css"
+  rel="stylesheet">
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
 
-    <meta name="description" content="许多人想拥有自己博客，但碍于没有实际部署经验。目前流行的Hexo、Hugo和WordPress博客部署门槛相对较高，对于纯新手来讲有一定的难度。
-Gridea是一个静态博客写作客户端，所有文件都在本地，没有数据库，实现简单，支持Markdo..." />
-    <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://erenblogs.github.io">
-  <img class="avatar" src="https://erenblogs.github.io/images/avatar.png?v=1631719848877" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
+  <meta name="description" content="Gridea博客搭建" />
+  <meta name="keywords" content="" />
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
     
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
+<div class="pisces">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>eren&#39;s blogs</span>
+            </a>  
+          
+        </div>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about/" target="_self">
+                  <i class="fa fa-user"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              Gridea博客搭建
-            </h2>
-            <div class="post-info">
-              <span>
-                2021-09-15
-              </span>
-              <span>
-                2 min read
-              </span>
-              
-            </div>
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>许多人想拥有自己博客，但碍于没有实际部署经验。目前流行的Hexo、Hugo和WordPress博客部署门槛相对较高，对于纯新手来讲有一定的难度。</p>
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout pisces ">
+      <div class="section-layout-wrapper">
+        
+
+<div class="sidebar">
+  
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+      <div class="sidebar-body pisces" id="sidebar_body">
+        
+      </div>
+    </div>
+  
+</div>
+<script>
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
+
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    window.Velocity(hideElement, 'stop');
+    window.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        window.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
+      }
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+  }
+
+  postToc && postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+  if (sidebarBody) {
+    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+      let hasFix = false;
+      let scrollEl = document.querySelector('.main-continer');
+      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+      window.addEventListener('scroll', function(e) {
+        if (document.scrollingElement.scrollTop >= limitTop) {
+          if (!hasFix) {
+            sidebar.classList.add('sidebar-fixed');
+            hasFix = true;
+          }
+        } else {
+          if (hasFix) {
+            sidebar.classList.remove('sidebar-fixed');
+            hasFix = false;
+          }
+        }
+      });
+    }
+  }
+  
+</script>
+        <div class="section-box box-shadow-wrapper">
+          <div class="section bg-color post post-page">
+            <header class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://erenblogs.github.io/post/gridea-bo-ke-da-jian/">
+      Gridea博客搭建
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span>发布于</span>
+      <span>2021-09-15</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>2分钟</span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>421<span class="pc-show">字数</span></span>
+    </span>
+    
+  </div>
+</header>
+            <div class="post-body next-md-body" id="post_body">
+              <p>许多人想拥有自己博客，但碍于没有实际部署经验。目前流行的Hexo、Hugo和WordPress博客部署门槛相对较高，对于纯新手来讲有一定的难度。</p>
 <p><a href="https://gridea.dev/">Gridea</a>是一个静态博客写作客户端，所有文件都在本地，没有数据库，实现简单，支持Markdown，部署起来非常容易！</p>
 <figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@e3a0d251b5ca5e510aa73581649c19e40e5815e1/2021/09/15/57165d6e797f43786684d47fd7e5778a.png" alt="" loading="lazy"></figure>
 <!--more-->
@@ -139,105 +307,431 @@ Gridea是一个静态博客写作客户端，所有文件都在本地，没有�
 <figure data-type="image" tabindex="13"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@4c113247ed8de4f19302a772bff7d3976eef2096/2021/09/15/8511f4ba0bcd7cfb1bbe9b664faead9e.png" alt="" loading="lazy"></figure>
 <h5 id="3浏览器输入自己的域名访问即可httpsblog020810xyz">3.浏览器输入自己的域名访问即可：https://blog.020810.xyz/</h5>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#%E4%B8%80%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C">一：准备工作</a>
-<ul>
-<li><a href="#1github%E8%B4%A6%E5%8F%B7">1.GitHub账号</a></li>
-<li><a href="#2gridea">2.Gridea</a></li>
-</ul>
-</li>
-<li><a href="#%E4%BA%8C%E9%83%A8%E7%BD%B2%E6%B5%81%E7%A8%8B">二：部署流程</a>
-<ul>
-<li><a href="#1%E5%9C%A8github%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%BB%93%E5%BA%93">1.在GitHub新建一个仓库</a></li>
-<li><a href="#2%E5%A1%AB%E5%86%99%E4%BB%93%E5%BA%93%E5%90%8D%E7%94%A8%E6%88%B7%E5%90%8Dgithubio%E5%B9%B6%E5%88%9B%E5%BB%BA%E4%BF%9D%E5%AD%98">2.填写仓库名：<code>用户名+.github.io</code>，并创建保存</a></li>
-<li><a href="#3%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AAtokensettingsdeveloper-settingspersonal-access-tokens">3.新建一个Token，settings—Developer settings—Personal access tokens</a></li>
-<li><a href="#4%E6%89%93%E5%BC%80gridea%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9A%84%E8%BF%9C%E7%A8%8B%E7%95%8C%E9%9D%A2%E6%8C%89%E7%85%A7%E5%A6%82%E4%B8%8B%E5%A1%AB%E5%86%99%E5%B9%B6%E7%82%B9%E5%87%BB%E5%8F%B3%E4%B8%8B%E8%A7%92%E7%9A%84%E4%BF%9D%E5%AD%98">4.打开gridea客户端的远程界面，按照如下填写，并点击右下角的保存!</a></li>
-<li><a href="#5%E7%82%B9%E5%87%BB%E6%A3%80%E6%B5%8B%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%98%BE%E7%A4%BA%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%88%90%E5%8A%9F">5.点击检测远程连接，显示远程连接成功</a></li>
-<li><a href="#6%E6%9C%80%E5%90%8E%E5%85%88%E9%A2%84%E8%A7%88%E5%86%8D%E5%90%8C%E6%AD%A5%E6%98%BE%E7%A4%BA%E5%90%8C%E6%AD%A5%E6%88%90%E5%8A%9F%E5%88%99%E8%A1%A8%E7%A4%BA%E9%83%A8%E7%BD%B2%E5%AE%8C%E6%88%90">6.最后先预览再同步，显示同步成功则表示部署完成</a></li>
-<li><a href="#7%E5%90%8C%E6%AD%A5%E4%B9%8B%E5%90%8E%E9%9C%80%E8%A6%81%E7%AD%89%E5%BE%85%E4%B8%80%E4%BC%9A%E5%9C%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E5%85%A5erenblogsgithubio%E6%AD%A4%E5%A4%84%E6%8D%A2%E6%88%90%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E5%8D%B3%E5%8F%AF%E7%9C%8B%E5%88%B0%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9">7.同步之后需要等待一会，在浏览器输入erenblogs.github.io(此处换成你自己的用户名)，即可看到博客内容</a></li>
-</ul>
-</li>
-<li><a href="#%E4%B8%89%E5%9F%9F%E5%90%8D%E9%83%A8%E7%BD%B2">三：域名部署</a>
-<ul>
-<li><a href="#1%E8%BF%9B%E5%85%A5github-pages%E9%A1%B5%E9%9D%A2%E5%B0%86dns%E8%A7%A3%E6%9E%90%E5%A5%BD%E7%9A%84%E5%9F%9F%E5%90%8D%E5%A1%AB%E5%85%A5%E4%B8%8B%E5%9B%BEcustom-domain%E5%A4%84%E5%B9%B6save%E5%8B%BE%E9%80%89enforce-https">1.进入GitHub Pages页面，将DNS解析好的域名填入下图custom domain处，并save，勾选enforce https</a></li>
-<li><a href="#2%E5%B0%86%E5%9F%9F%E5%90%8D%E5%A1%AB%E5%85%A5cname%E5%B9%B6%E7%82%B9%E5%87%BB%E4%BF%9D%E5%AD%98%E5%92%8C%E5%90%8C%E6%AD%A5%E4%B8%80%E5%AE%9A%E8%A6%81%E5%90%8C%E6%AD%A5">2.将域名填入cname，并点击保存和同步！（一定要同步）</a></li>
-<li><a href="#3%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E5%85%A5%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE%E5%8D%B3%E5%8F%AFhttpsblog020810xyz">3.浏览器输入自己的域名访问即可：https://blog.020810.xyz/</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-              </div>
             </div>
-          </article>
-        </div>
-
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://erenblogs.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
+            <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong>本文作者：</strong>
+      
+    </li>
+    <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://erenblogs.github.io/post/gridea-bo-ke-da-jian/" title="Gridea博客搭建">https://erenblogs.github.io/post/gridea-bo-ke-da-jian/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，均采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i> BY-NC-SA</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+  </div>
+  <div class="nav">
+    <div class="nav-prev">
+      
+    </div>
+    <div class="nav-next">
+      
+    </div>
+  </div>
 </div>
+            
+  
 
+          </div>
+        </div>
       </div>
     </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </footer>
+  
+  
+  <div class="pisces back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+    <div class="bg-img">
+      <img src="" />
+    </div>
+  
+  
+  
+    
 
-    <script>
-      hljs.initHighlightingOnLoad()
+  
+</div>
+<script>
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+  function scrollAnimation(currentY, targetY) {
+   
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+  back2Top.addEventListener("click", function(e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+  
+  window.addEventListener('scroll', function(e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
           }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
         });
-      });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
 
-    </script>
-  </body>
+  // 链接跳转
+  let newWindow = ''
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target","_blank");
+      }
+    })
+  }
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+</script>
+    <div class="light-box" id="light_box"></div>
+<script>
+  let imgs = document.querySelectorAll('.post-body img');
+  let lightBox = document.querySelector('#light_box');
+  lightBox.addEventListener('mousedown', (e) => {
+    e.preventDefault()
+  })
+  lightBox.addEventListener('mousewheel', (e) => {
+    e.preventDefault()
+  })
+  let width = window.innerWidth * 0.8;
+  lightBox.onclick = () => {
+    let img = lightBox.querySelector('img');
+    lightBox.style = '';
+    img && img.remove();
+  }
+  imgs.forEach(item => {
+    item.onclick = function (e) {
+      let lightImg = document.createElement('img');
+      lightImg.src = this.src;
+      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
+      lightImg.style = `width: ${width}px; border: 1px solid #fff; border-radius: 2px;`;
+      lightImg.onclick = function () {
+        lightBox.style = '';
+        this.remove();
+      }
+      lightBox.append(lightImg);
+    }
+  })
+</script>
+  </div>
+</body>
+<input hidden id="copy" />
+<script>
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        console.log('复制操作频率过高');
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+</script>
+<script src="/media/js/motion.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 500
+  });
+</script>
+
+<!-- <div class="search-mask" id="search_mask">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input type="text" placeholder="搜索">
+      </div>
+      <i class="fa fa-times-circle"></i>
+    </div>
+    <div class="result">
+      
+      <div class="item">
+        <a class="result-title" href="https://erenblogs.github.io/post/gridea-bo-ke-da-jian/"" data-c="
+          &lt;p&gt;许多人想拥有自己博客，但碍于没有实际部署经验。目前流行的Hexo、Hugo和WordPress博客部署门槛相对较高，对于纯新手来讲有一定的难度。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gridea.dev/&#34;&gt;Gridea&lt;/a&gt;是一个静态博客写作客户端，所有文件都在本地，没有数据库，实现简单，支持Markdown，部署起来非常容易！&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@e3a0d251b5ca5e510aa73581649c19e40e5815e1/2021/09/15/57165d6e797f43786684d47fd7e5778a.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;!--more--&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;一准备工作&#34;&gt;一：准备工作&lt;/h4&gt;
+&lt;h5 id=&#34;1github账号&#34;&gt;1.GitHub账号&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;没有的小伙伴就去注册一个吧：&lt;a href=&#34;https://github.com/&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;2gridea&#34;&gt;2.Gridea&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;最新版本：&lt;a href=&#34;https://github.com/EryouHao/gridea-test-install/releases/tag/1.0&#34;&gt;客户端下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;自行安装，默认C盘，建议装在其他盘&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;二部署流程&#34;&gt;二：部署流程&lt;/h4&gt;
+&lt;h5 id=&#34;1在github新建一个仓库&#34;&gt;1.在GitHub新建一个仓库&lt;/h5&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@8ff4e11e312f1970c6331d98f6a5b0cbfde48e03/2021/09/15/460285b7ae7c7c34febfa53f2bbc6c3d.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h5 id=&#34;2填写仓库名用户名githubio并创建保存&#34;&gt;2.填写仓库名：&lt;code&gt;用户名+.github.io&lt;/code&gt;，并创建保存&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我的用户名是&lt;code&gt;erenblogs&lt;/code&gt;，如下图所示&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@2ffa678172e1e485ef8bbec1a1b7ec0cf88d6c0f/2021/09/15/2904ddab82de92182393a3807aa1ffa6.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h5 id=&#34;3新建一个tokensettingsdeveloper-settingspersonal-access-tokens&#34;&gt;3.新建一个Token，settings—Developer settings—Personal access tokens&lt;/h5&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;4&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@018ec365db1ab1e66709ec6ed2cf79a3544d0555/2021/09/15/20cdfcf8ad41133fabe33614f2891b27.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;5&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@659d95c0cd2f014889269747b71199870d814d28/2021/09/15/c95101beadaa931622f3d174437b6b91.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;此处注意选择，一定要勾选repo！&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;6&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@ab56b8f97e95e9542f8d0a12651d306e0d2ea067/2021/09/15/c1b5d704c830af1691c94887c8010894.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;将生成的token复制保存&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;7&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@3bfc4d5fc741345ff927c91cdd2b2b6b7be687c2/2021/09/15/7fc0079f5db73c00649de5a0e14acfd0.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h5 id=&#34;4打开gridea客户端的远程界面按照如下填写并点击右下角的保存&#34;&gt;4.打开gridea客户端的远程界面，按照如下填写，并点击右下角的保存!&lt;/h5&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;8&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@93ddb0e509dfcefcbd096e533067375b18601412/2021/09/15/1fa74ea3094ec1769a2115811aa87ff1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h5 id=&#34;5点击检测远程连接显示远程连接成功&#34;&gt;5.点击检测远程连接，显示远程连接成功&lt;/h5&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;9&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@e085b10f159d327b8401a0f47853087d753e97bb/2021/09/15/bdd4e12184743b373a71a35e418904a3.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h5 id=&#34;6最后先预览再同步显示同步成功则表示部署完成&#34;&gt;6.最后先预览再同步，显示同步成功则表示部署完成&lt;/h5&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;10&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@401ce63768d8a8fd5a67b52a440470f7b918f363/2021/09/15/6b9a3a320a3e2895acf709098dfe72de.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h5 id=&#34;7同步之后需要等待一会在浏览器输入erenblogsgithubio此处换成你自己的用户名即可看到博客内容&#34;&gt;7.同步之后需要等待一会，在浏览器输入erenblogs.github.io(此处换成你自己的用户名)，即可看到博客内容&lt;/h5&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;11&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@7f450a79190fd13ab4e16aae1278d77801c584b6/2021/09/15/1d1af94fbd17889f54eb6832c5837f63.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;三域名部署&#34;&gt;三：域名部署&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;有域名的同学可以进行尝试，没有域名的同学可以忽略此部分&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;1进入github-pages页面将dns解析好的域名填入下图custom-domain处并save勾选enforce-https&#34;&gt;1.进入GitHub Pages页面，将DNS解析好的域名填入下图custom domain处，并save，勾选enforce https&lt;/h5&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;12&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@81c99d7d087e6985996ecc2d235a92eea217d05e/2021/09/15/efa907b6f78ad4af3cde0a05c962b867.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h5 id=&#34;2将域名填入cname并点击保存和同步一定要同步&#34;&gt;2.将域名填入cname，并点击保存和同步！（一定要同步）&lt;/h5&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;13&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@4c113247ed8de4f19302a772bff7d3976eef2096/2021/09/15/8511f4ba0bcd7cfb1bbe9b664faead9e.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h5 id=&#34;3浏览器输入自己的域名访问即可httpsblog020810xyz&#34;&gt;3.浏览器输入自己的域名访问即可：https://blog.020810.xyz/&lt;/h5&gt;
+">Gridea博客搭建</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<script>
+  // var escape = "[{&#34;content&#34;:&#34;&lt;p&gt;许多人想拥有自己博客，但碍于没有实际部署经验。目前流行的Hexo、Hugo和WordPress博客部署门槛相对较高，对于纯新手来讲有一定的难度。&lt;/p&gt;\n&lt;p&gt;&lt;a href=\&#34;https://gridea.dev/\&#34;&gt;Gridea&lt;/a&gt;是一个静态博客写作客户端，所有文件都在本地，没有数据库，实现简单，支持Markdown，部署起来非常容易！&lt;/p&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;1\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@e3a0d251b5ca5e510aa73581649c19e40e5815e1/2021/09/15/57165d6e797f43786684d47fd7e5778a.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;!--more--&gt;\n&lt;hr&gt;\n&lt;h4 id=\&#34;一准备工作\&#34;&gt;一：准备工作&lt;/h4&gt;\n&lt;h5 id=\&#34;1github账号\&#34;&gt;1.GitHub账号&lt;/h5&gt;\n&lt;blockquote&gt;\n&lt;p&gt;没有的小伙伴就去注册一个吧：&lt;a href=\&#34;https://github.com/\&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h5 id=\&#34;2gridea\&#34;&gt;2.Gridea&lt;/h5&gt;\n&lt;blockquote&gt;\n&lt;p&gt;最新版本：&lt;a href=\&#34;https://github.com/EryouHao/gridea-test-install/releases/tag/1.0\&#34;&gt;客户端下载&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;自行安装，默认C盘，建议装在其他盘&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;hr&gt;\n&lt;h4 id=\&#34;二部署流程\&#34;&gt;二：部署流程&lt;/h4&gt;\n&lt;h5 id=\&#34;1在github新建一个仓库\&#34;&gt;1.在GitHub新建一个仓库&lt;/h5&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;2\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@8ff4e11e312f1970c6331d98f6a5b0cbfde48e03/2021/09/15/460285b7ae7c7c34febfa53f2bbc6c3d.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;h5 id=\&#34;2填写仓库名用户名githubio并创建保存\&#34;&gt;2.填写仓库名：&lt;code&gt;用户名+.github.io&lt;/code&gt;，并创建保存&lt;/h5&gt;\n&lt;blockquote&gt;\n&lt;p&gt;我的用户名是&lt;code&gt;erenblogs&lt;/code&gt;，如下图所示&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;3\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@2ffa678172e1e485ef8bbec1a1b7ec0cf88d6c0f/2021/09/15/2904ddab82de92182393a3807aa1ffa6.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;h5 id=\&#34;3新建一个tokensettingsdeveloper-settingspersonal-access-tokens\&#34;&gt;3.新建一个Token，settings—Developer settings—Personal access tokens&lt;/h5&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;4\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@018ec365db1ab1e66709ec6ed2cf79a3544d0555/2021/09/15/20cdfcf8ad41133fabe33614f2891b27.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;5\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@659d95c0cd2f014889269747b71199870d814d28/2021/09/15/c95101beadaa931622f3d174437b6b91.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;p&gt;此处注意选择，一定要勾选repo！&lt;/p&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;6\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@ab56b8f97e95e9542f8d0a12651d306e0d2ea067/2021/09/15/c1b5d704c830af1691c94887c8010894.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;p&gt;将生成的token复制保存&lt;/p&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;7\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@3bfc4d5fc741345ff927c91cdd2b2b6b7be687c2/2021/09/15/7fc0079f5db73c00649de5a0e14acfd0.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;h5 id=\&#34;4打开gridea客户端的远程界面按照如下填写并点击右下角的保存\&#34;&gt;4.打开gridea客户端的远程界面，按照如下填写，并点击右下角的保存!&lt;/h5&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;8\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@93ddb0e509dfcefcbd096e533067375b18601412/2021/09/15/1fa74ea3094ec1769a2115811aa87ff1.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;h5 id=\&#34;5点击检测远程连接显示远程连接成功\&#34;&gt;5.点击检测远程连接，显示远程连接成功&lt;/h5&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;9\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@e085b10f159d327b8401a0f47853087d753e97bb/2021/09/15/bdd4e12184743b373a71a35e418904a3.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;h5 id=\&#34;6最后先预览再同步显示同步成功则表示部署完成\&#34;&gt;6.最后先预览再同步，显示同步成功则表示部署完成&lt;/h5&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;10\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@401ce63768d8a8fd5a67b52a440470f7b918f363/2021/09/15/6b9a3a320a3e2895acf709098dfe72de.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;h5 id=\&#34;7同步之后需要等待一会在浏览器输入erenblogsgithubio此处换成你自己的用户名即可看到博客内容\&#34;&gt;7.同步之后需要等待一会，在浏览器输入erenblogs.github.io(此处换成你自己的用户名)，即可看到博客内容&lt;/h5&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;11\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@7f450a79190fd13ab4e16aae1278d77801c584b6/2021/09/15/1d1af94fbd17889f54eb6832c5837f63.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;hr&gt;\n&lt;h4 id=\&#34;三域名部署\&#34;&gt;三：域名部署&lt;/h4&gt;\n&lt;blockquote&gt;\n&lt;p&gt;&lt;strong&gt;有域名的同学可以进行尝试，没有域名的同学可以忽略此部分&lt;/strong&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h5 id=\&#34;1进入github-pages页面将dns解析好的域名填入下图custom-domain处并save勾选enforce-https\&#34;&gt;1.进入GitHub Pages页面，将DNS解析好的域名填入下图custom domain处，并save，勾选enforce https&lt;/h5&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;12\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@81c99d7d087e6985996ecc2d235a92eea217d05e/2021/09/15/efa907b6f78ad4af3cde0a05c962b867.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;h5 id=\&#34;2将域名填入cname并点击保存和同步一定要同步\&#34;&gt;2.将域名填入cname，并点击保存和同步！（一定要同步）&lt;/h5&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;13\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@4c113247ed8de4f19302a772bff7d3976eef2096/2021/09/15/8511f4ba0bcd7cfb1bbe9b664faead9e.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;h5 id=\&#34;3浏览器输入自己的域名访问即可httpsblog020810xyz\&#34;&gt;3.浏览器输入自己的域名访问即可：https://blog.020810.xyz/&lt;/h5&gt;\n&#34;,&#34;fileName&#34;:&#34;gridea-bo-ke-da-jian&#34;,&#34;abstract&#34;:&#34;&lt;p&gt;许多人想拥有自己博客，但碍于没有实际部署经验。目前流行的Hexo、Hugo和WordPress博客部署门槛相对较高，对于纯新手来讲有一定的难度。&lt;/p&gt;\n&lt;p&gt;&lt;a href=\&#34;https://gridea.dev/\&#34;&gt;Gridea&lt;/a&gt;是一个静态博客写作客户端，所有文件都在本地，没有数据库，实现简单，支持Markdown，部署起来非常容易！&lt;/p&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;1\&#34;&gt;&lt;img src=\&#34;https://cdn.jsdelivr.net/gh/Levisper/PictureBed@e3a0d251b5ca5e510aa73581649c19e40e5815e1/2021/09/15/57165d6e797f43786684d47fd7e5778a.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&#34;,&#34;title&#34;:&#34;Gridea博客搭建&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2021-09-15 23:28:23&#34;,&#34;dateFormat&#34;:&#34;2021-09-15&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://erenblogs.github.io/post/gridea-bo-ke-da-jian/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:92000,&#34;words&#34;:421,&#34;minutes&#34;:2},&#34;description&#34;:&#34;许多人想拥有自己博客，但碍于没有实际部署经验。目前流行的Hexo、Hugo和WordPress博客部署门槛相对较高，对于纯新手来讲有一定的难度。\nGridea是一个静态博客写作客户端，所有文件都在本地，没有数据库，实现简单，支持Markdo...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E4%B8%80%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C\&#34;&gt;一：准备工作&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#1github%E8%B4%A6%E5%8F%B7\&#34;&gt;1.GitHub账号&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2gridea\&#34;&gt;2.Gridea&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E4%BA%8C%E9%83%A8%E7%BD%B2%E6%B5%81%E7%A8%8B\&#34;&gt;二：部署流程&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E5%9C%A8github%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%BB%93%E5%BA%93\&#34;&gt;1.在GitHub新建一个仓库&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E5%A1%AB%E5%86%99%E4%BB%93%E5%BA%93%E5%90%8D%E7%94%A8%E6%88%B7%E5%90%8Dgithubio%E5%B9%B6%E5%88%9B%E5%BB%BA%E4%BF%9D%E5%AD%98\&#34;&gt;2.填写仓库名：&lt;code&gt;用户名+.github.io&lt;/code&gt;，并创建保存&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E6%96%B0%E5%BB%BA%E4%B8%80%E4%B8%AAtokensettingsdeveloper-settingspersonal-access-tokens\&#34;&gt;3.新建一个Token，settings—Developer settings—Personal access tokens&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#4%E6%89%93%E5%BC%80gridea%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%9A%84%E8%BF%9C%E7%A8%8B%E7%95%8C%E9%9D%A2%E6%8C%89%E7%85%A7%E5%A6%82%E4%B8%8B%E5%A1%AB%E5%86%99%E5%B9%B6%E7%82%B9%E5%87%BB%E5%8F%B3%E4%B8%8B%E8%A7%92%E7%9A%84%E4%BF%9D%E5%AD%98\&#34;&gt;4.打开gridea客户端的远程界面，按照如下填写，并点击右下角的保存!&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#5%E7%82%B9%E5%87%BB%E6%A3%80%E6%B5%8B%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%98%BE%E7%A4%BA%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%88%90%E5%8A%9F\&#34;&gt;5.点击检测远程连接，显示远程连接成功&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#6%E6%9C%80%E5%90%8E%E5%85%88%E9%A2%84%E8%A7%88%E5%86%8D%E5%90%8C%E6%AD%A5%E6%98%BE%E7%A4%BA%E5%90%8C%E6%AD%A5%E6%88%90%E5%8A%9F%E5%88%99%E8%A1%A8%E7%A4%BA%E9%83%A8%E7%BD%B2%E5%AE%8C%E6%88%90\&#34;&gt;6.最后先预览再同步，显示同步成功则表示部署完成&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#7%E5%90%8C%E6%AD%A5%E4%B9%8B%E5%90%8E%E9%9C%80%E8%A6%81%E7%AD%89%E5%BE%85%E4%B8%80%E4%BC%9A%E5%9C%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E5%85%A5erenblogsgithubio%E6%AD%A4%E5%A4%84%E6%8D%A2%E6%88%90%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E5%8D%B3%E5%8F%AF%E7%9C%8B%E5%88%B0%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9\&#34;&gt;7.同步之后需要等待一会，在浏览器输入erenblogs.github.io(此处换成你自己的用户名)，即可看到博客内容&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E4%B8%89%E5%9F%9F%E5%90%8D%E9%83%A8%E7%BD%B2\&#34;&gt;三：域名部署&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#1%E8%BF%9B%E5%85%A5github-pages%E9%A1%B5%E9%9D%A2%E5%B0%86dns%E8%A7%A3%E6%9E%90%E5%A5%BD%E7%9A%84%E5%9F%9F%E5%90%8D%E5%A1%AB%E5%85%A5%E4%B8%8B%E5%9B%BEcustom-domain%E5%A4%84%E5%B9%B6save%E5%8B%BE%E9%80%89enforce-https\&#34;&gt;1.进入GitHub Pages页面，将DNS解析好的域名填入下图custom domain处，并save，勾选enforce https&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#2%E5%B0%86%E5%9F%9F%E5%90%8D%E5%A1%AB%E5%85%A5cname%E5%B9%B6%E7%82%B9%E5%87%BB%E4%BF%9D%E5%AD%98%E5%92%8C%E5%90%8C%E6%AD%A5%E4%B8%80%E5%AE%9A%E8%A6%81%E5%90%8C%E6%AD%A5\&#34;&gt;2.将域名填入cname，并点击保存和同步！（一定要同步）&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#3%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E5%85%A5%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE%E5%8D%B3%E5%8F%AFhttpsblog020810xyz\&#34;&gt;3.浏览器输入自己的域名访问即可：https://blog.020810.xyz/&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;}]";
+  // var json = escape.substr(1, escape.length - 2);
+  // var datas = json.split(',');
+  // for (let i=0; i < datas.length; i++) {
+  //   let item = datas[i];
+  //   let attrs = item.split('34;:&#34')
+  //   debugger
+  //   console.log(datas[i])
+  // }
+  let escapeMap = new Map();
+  escapeMap.set('&#34;', '"');
+  escapeMap.set('&gt;', '>');
+  escapeMap.set('&#39;', "'");
+  escapeMap.set('&lt;', '<');
+  escapeMap.set('&quot;', '"');
+  escapeMap.set('&amp;', '&');
+</script> -->
+
+
 </html>
