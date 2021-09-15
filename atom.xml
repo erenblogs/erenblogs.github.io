@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://erenblogs.github.io</id>
     <title>Gridea</title>
-    <updated>2021-09-15T10:40:49.210Z</updated>
+    <updated>2021-09-15T15:30:54.951Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://erenblogs.github.io"/>
     <link rel="self" href="https://erenblogs.github.io/atom.xml"/>
@@ -11,53 +11,64 @@
     <icon>https://erenblogs.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[测试]]></title>
-        <id>https://erenblogs.github.io/post/ce-shi/</id>
-        <link href="https://erenblogs.github.io/post/ce-shi/">
+        <title type="html"><![CDATA[Gridea博客搭建]]></title>
+        <id>https://erenblogs.github.io/post/gridea-bo-ke-da-jian/</id>
+        <link href="https://erenblogs.github.io/post/gridea-bo-ke-da-jian/">
         </link>
-        <updated>2021-09-15T10:39:16.000Z</updated>
-        <content type="html"><![CDATA[<p>第二次</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[博客搭建]]></title>
-        <id>https://erenblogs.github.io/post/bo-ke-da-jian/</id>
-        <link href="https://erenblogs.github.io/post/bo-ke-da-jian/">
-        </link>
-        <updated>2021-09-15T09:50:47.000Z</updated>
-        <content type="html"><![CDATA[<p>第一篇blog</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://erenblogs.github.io/post/hello-gridea/</id>
-        <link href="https://erenblogs.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <updated>2021-09-15T15:28:23.000Z</updated>
+        <summary type="html"><![CDATA[<p>许多人想拥有自己博客，但碍于没有实际部署经验。目前流行的Hexo、Hugo和WordPress博客部署门槛相对较高，对于纯新手来讲有一定的难度。</p>
+<p><a href="https://gridea.dev/">Gridea</a>是一个静态博客写作客户端，所有文件都在本地，没有数据库，实现简单，支持Markdown，部署起来非常容易！</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@e3a0d251b5ca5e510aa73581649c19e40e5815e1/2021/09/15/57165d6e797f43786684d47fd7e5778a.png" alt="" loading="lazy"></figure>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+        <content type="html"><![CDATA[<p>许多人想拥有自己博客，但碍于没有实际部署经验。目前流行的Hexo、Hugo和WordPress博客部署门槛相对较高，对于纯新手来讲有一定的难度。</p>
+<p><a href="https://gridea.dev/">Gridea</a>是一个静态博客写作客户端，所有文件都在本地，没有数据库，实现简单，支持Markdown，部署起来非常容易！</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@e3a0d251b5ca5e510aa73581649c19e40e5815e1/2021/09/15/57165d6e797f43786684d47fd7e5778a.png" alt="" loading="lazy"></figure>
+<!--more-->
+<hr>
+<h4 id="一准备工作">一：准备工作</h4>
+<h5 id="1github账号">1.GitHub账号</h5>
+<blockquote>
+<p>没有的小伙伴就去注册一个吧：<a href="https://github.com/">传送门</a></p>
+</blockquote>
+<h5 id="2gridea">2.Gridea</h5>
+<blockquote>
+<p>最新版本：<a href="https://github.com/EryouHao/gridea-test-install/releases/tag/1.0">客户端下载</a></p>
+<p>自行安装，默认C盘，建议装在其他盘</p>
+</blockquote>
+<hr>
+<h4 id="二部署流程">二：部署流程</h4>
+<h5 id="1在github新建一个仓库">1.在GitHub新建一个仓库</h5>
+<figure data-type="image" tabindex="2"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@8ff4e11e312f1970c6331d98f6a5b0cbfde48e03/2021/09/15/460285b7ae7c7c34febfa53f2bbc6c3d.png" alt="" loading="lazy"></figure>
+<h5 id="2填写仓库名用户名githubio并创建保存">2.填写仓库名：<code>用户名+.github.io</code>，并创建保存</h5>
+<blockquote>
+<p>我的用户名是<code>erenblogs</code>，如下图所示</p>
+</blockquote>
+<figure data-type="image" tabindex="3"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@2ffa678172e1e485ef8bbec1a1b7ec0cf88d6c0f/2021/09/15/2904ddab82de92182393a3807aa1ffa6.png" alt="" loading="lazy"></figure>
+<h5 id="3新建一个tokensettingsdeveloper-settingspersonal-access-tokens">3.新建一个Token，settings—Developer settings—Personal access tokens</h5>
+<figure data-type="image" tabindex="4"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@018ec365db1ab1e66709ec6ed2cf79a3544d0555/2021/09/15/20cdfcf8ad41133fabe33614f2891b27.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@659d95c0cd2f014889269747b71199870d814d28/2021/09/15/c95101beadaa931622f3d174437b6b91.png" alt="" loading="lazy"></figure>
+<p>此处注意选择，一定要勾选repo！</p>
+<figure data-type="image" tabindex="6"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@ab56b8f97e95e9542f8d0a12651d306e0d2ea067/2021/09/15/c1b5d704c830af1691c94887c8010894.png" alt="" loading="lazy"></figure>
+<p>将生成的token复制保存</p>
+<figure data-type="image" tabindex="7"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@3bfc4d5fc741345ff927c91cdd2b2b6b7be687c2/2021/09/15/7fc0079f5db73c00649de5a0e14acfd0.png" alt="" loading="lazy"></figure>
+<h5 id="4打开gridea客户端的远程界面按照如下填写并点击右下角的保存">4.打开gridea客户端的远程界面，按照如下填写，并点击右下角的保存!</h5>
+<figure data-type="image" tabindex="8"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@93ddb0e509dfcefcbd096e533067375b18601412/2021/09/15/1fa74ea3094ec1769a2115811aa87ff1.png" alt="" loading="lazy"></figure>
+<h5 id="5点击检测远程连接显示远程连接成功">5.点击检测远程连接，显示远程连接成功</h5>
+<figure data-type="image" tabindex="9"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@e085b10f159d327b8401a0f47853087d753e97bb/2021/09/15/bdd4e12184743b373a71a35e418904a3.png" alt="" loading="lazy"></figure>
+<h5 id="6最后先预览再同步显示同步成功则表示部署完成">6.最后先预览再同步，显示同步成功则表示部署完成</h5>
+<figure data-type="image" tabindex="10"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@401ce63768d8a8fd5a67b52a440470f7b918f363/2021/09/15/6b9a3a320a3e2895acf709098dfe72de.png" alt="" loading="lazy"></figure>
+<h5 id="7同步之后需要等待一会在浏览器输入erenblogsgithubio此处换成你自己的用户名即可看到博客内容">7.同步之后需要等待一会，在浏览器输入erenblogs.github.io(此处换成你自己的用户名)，即可看到博客内容</h5>
+<figure data-type="image" tabindex="11"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@7f450a79190fd13ab4e16aae1278d77801c584b6/2021/09/15/1d1af94fbd17889f54eb6832c5837f63.png" alt="" loading="lazy"></figure>
+<hr>
+<h4 id="三域名部署">三：域名部署</h4>
+<blockquote>
+<p><strong>有域名的同学可以进行尝试，没有域名的同学可以忽略此部分</strong></p>
+</blockquote>
+<h5 id="1进入github-pages页面将dns解析好的域名填入下图custom-domain处并save勾选enforce-https">1.进入GitHub Pages页面，将DNS解析好的域名填入下图custom domain处，并save，勾选enforce https</h5>
+<figure data-type="image" tabindex="12"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@81c99d7d087e6985996ecc2d235a92eea217d05e/2021/09/15/efa907b6f78ad4af3cde0a05c962b867.png" alt="" loading="lazy"></figure>
+<h5 id="2将域名填入cname并点击保存和同步一定要同步">2.将域名填入cname，并点击保存和同步！（一定要同步）</h5>
+<figure data-type="image" tabindex="13"><img src="https://cdn.jsdelivr.net/gh/Levisper/PictureBed@4c113247ed8de4f19302a772bff7d3976eef2096/2021/09/15/8511f4ba0bcd7cfb1bbe9b664faead9e.png" alt="" loading="lazy"></figure>
+<h5 id="3浏览器输入自己的域名访问即可httpsblog020810xyz">3.浏览器输入自己的域名访问即可：https://blog.020810.xyz/</h5>
 ]]></content>
     </entry>
 </feed>
